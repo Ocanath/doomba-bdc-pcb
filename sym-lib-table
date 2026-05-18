@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "foc-pcb")(type "KiCad")(uri "${KIPRJMOD}/foc-pcb.kicad_sym")(options "")(descr ""))
+  (lib (name "foc-pcb-lib")(type "KiCad")(uri "${KIPRJMOD}/foc-pcb-lib.kicad_sym")(options "")(descr ""))
+)

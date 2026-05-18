@@ -1,0 +1,4 @@
+* mymixer_behav.lib — ideal multiplier via ABM source
+.SUBCKT MYMIXER RF LO OUT VCC VEE
+  B1 OUT 0 V=V(RF)*V(LO)
+.ENDS MYMIXER

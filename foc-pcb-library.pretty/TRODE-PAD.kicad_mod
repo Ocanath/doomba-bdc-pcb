@@ -1,0 +1,18 @@
+(footprint "TRODE-PAD" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 3.7 -0.1 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 5354b52a-3a86-4b2f-860f-feb55947435d)
+  )
+  (fp_text value "TRODE-PAD" (at -0.1 -2.3 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp f2166581-95c8-46c1-8de6-1d2c0a625ce4)
+  )
+  (fp_text user "${REFERENCE}" (at -0.1 -3.9 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp e0b18996-4908-4d79-951e-5513401e6615)
+  )
+  (pad "1" smd rect (at 0 0) (size 2.8 2.25) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.0508) (thermal_bridge_angle 45) (tstamp 09b57d09-0f79-463c-9b86-7fb1db6186d9))
+)

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "foc-pcb-library")(type "KiCad")(uri "${KIPRJMOD}/foc-pcb-library.pretty")(options "")(descr ""))
+)

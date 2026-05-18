@@ -1,0 +1,61 @@
+01-20 13:31:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'win32'
+01-20 13:31:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.9.16 (main, Oct 13 2023, 05:50:11) [MSC v.1936 64 bit (AMD64)]'
+01-20 13:31:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 7.0.11
+01-20 13:31:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 2.1.3
+01-20 13:31:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x00000212162C8E50>
+01-20 13:31:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with U8 as a reference
+01-20 13:31:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+01-20 13:31:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'U8'
+Located on: ['PhaseA']
+With filenames: ['motor_phase.kicad_sch']
+With sheet_id:['PhaseA']
+01-20 13:31:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+[('U4', ['PhaseC']), ('U1', ['PhaseB']), ('U8', ['PhaseA'])]
+01-20 13:31:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+01-20 13:31:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'PhaseA', file:'motor_phase.kicad_sch'
+01-20 13:31:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['PhaseB'], ['PhaseC']]
+01-20 13:31:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['PhaseA']
+01-20 13:31:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+01-20 13:31:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(3507, 117)
+01-20 13:31:52 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(3068, 117)
+01-20 13:31:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'PhaseA', file:'motor_phase.kicad_sch'
+01-20 13:31:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['PhaseB'], ['PhaseC']]
+01-20 13:31:53 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
+01-20 13:31:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 240:Starting replication of sheets: [['PhaseB'], ['PhaseC']]
+on level: ['PhaseA']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
+01-20 13:31:53 root 332:updating GUI message: 'Preparing for replication'
+01-20 13:31:53 root 337:updating GUI with: 0
+01-20 13:31:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of source footprints
+01-20 13:31:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 320:Getting the list of all the remaining footprints
+01-20 13:31:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 327:Getting source tracks
+01-20 13:31:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+01-20 13:31:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 331:Getting source zones
+01-20 13:31:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:Getting source text items
+01-20 13:31:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 339:Getting source drawing items
+01-20 13:31:53 root 332:updating GUI message: 'Replicating footprints'
+01-20 13:31:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 806:Replicating footprints
+01-20 13:31:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['PhaseB']
+01-20 13:31:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['PhaseC']
+01-20 13:31:53 root 332:updating GUI message: 'Replicating tracks'
+01-20 13:31:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 977:Replicating tracks
+01-20 13:31:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['PhaseB']
+01-20 13:31:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['PhaseB'] :[('unconnected-(U9-NC-Pad4)', 'unconnected-(U3-NC-Pad4)'), ('Net-(U8-LO)', 'Net-(U1-LO)'), ('/TIM1_CH1', '/TIM1_CH2'), ('/PhaseA/HS', '/PhaseB/HS'), ('Net-(Q8-G)', 'Net-(Q2-G)'), ('', ''), ('Net-(Q7-G)', 'Net-(Q1-G)'), ('GND', 'GND'), ('Net-(C37-Pad2)', 'Net-(C47-Pad2)'), ('Net-(U8-HB)', 'Net-(U1-HB)'), ('Vdrive', 'Vdrive'), ('+3V3', '+3V3'), ('Net-(U8-HO)', 'Net-(U1-HO)'), ('/ISENSE_A', '/ISENSE_B'), ('/V_GATEDRIVE', '/V_GATEDRIVE'), ('/PHASE_A', '/PHASE_B'), ('/TIM1_CH1N', '/TIM1_CH2N'), ('unconnected-(U8-NC-Pad2)', 'unconnected-(U1-NC-Pad2)')]
+01-20 13:31:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['PhaseC']
+01-20 13:31:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['PhaseC'] :[('Net-(Q7-G)', 'Net-(Q3-G)'), ('Net-(U8-HB)', 'Net-(U4-HB)'), ('', ''), ('unconnected-(U9-NC-Pad4)', 'unconnected-(U5-NC-Pad4)'), ('unconnected-(U8-NC-Pad2)', 'unconnected-(U4-NC-Pad2)'), ('GND', 'GND'), ('Net-(U8-HO)', 'Net-(U4-HO)'), ('/TIM1_CH1', '/TIM1_CH3'), ('Vdrive', 'Vdrive'), ('+3V3', '+3V3'), ('/PhaseA/HS', '/PhaseC/HS'), ('/ISENSE_A', '/ISENSE_C'), ('Net-(C37-Pad2)', 'Net-(C49-Pad2)'), ('/V_GATEDRIVE', '/V_GATEDRIVE'), ('Net-(U8-LO)', 'Net-(U4-LO)'), ('Net-(Q8-G)', 'Net-(Q4-G)'), ('/TIM1_CH1N', '/TIM1_CH3N'), ('/PHASE_A', '/PHASE_C')]
+01-20 13:31:53 root 332:updating GUI message: 'Replicating zones'
+01-20 13:31:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1047:Replicating zones
+01-20 13:31:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['PhaseB']
+01-20 13:31:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['PhaseB'] :[('unconnected-(U9-NC-Pad4)', 'unconnected-(U3-NC-Pad4)'), ('Net-(U8-LO)', 'Net-(U1-LO)'), ('/TIM1_CH1', '/TIM1_CH2'), ('/PhaseA/HS', '/PhaseB/HS'), ('Net-(Q8-G)', 'Net-(Q2-G)'), ('', ''), ('Net-(Q7-G)', 'Net-(Q1-G)'), ('GND', 'GND'), ('Net-(C37-Pad2)', 'Net-(C47-Pad2)'), ('Net-(U8-HB)', 'Net-(U1-HB)'), ('Vdrive', 'Vdrive'), ('+3V3', '+3V3'), ('Net-(U8-HO)', 'Net-(U1-HO)'), ('/ISENSE_A', '/ISENSE_B'), ('/V_GATEDRIVE', '/V_GATEDRIVE'), ('/PHASE_A', '/PHASE_B'), ('/TIM1_CH1N', '/TIM1_CH2N'), ('unconnected-(U8-NC-Pad2)', 'unconnected-(U1-NC-Pad2)')]
+01-20 13:31:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['PhaseC']
+01-20 13:31:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['PhaseC'] :[('Net-(Q7-G)', 'Net-(Q3-G)'), ('Net-(U8-HB)', 'Net-(U4-HB)'), ('', ''), ('unconnected-(U9-NC-Pad4)', 'unconnected-(U5-NC-Pad4)'), ('unconnected-(U8-NC-Pad2)', 'unconnected-(U4-NC-Pad2)'), ('GND', 'GND'), ('Net-(U8-HO)', 'Net-(U4-HO)'), ('/TIM1_CH1', '/TIM1_CH3'), ('Vdrive', 'Vdrive'), ('+3V3', '+3V3'), ('/PhaseA/HS', '/PhaseC/HS'), ('/ISENSE_A', '/ISENSE_C'), ('Net-(C37-Pad2)', 'Net-(C49-Pad2)'), ('/V_GATEDRIVE', '/V_GATEDRIVE'), ('Net-(U8-LO)', 'Net-(U4-LO)'), ('Net-(Q8-G)', 'Net-(Q4-G)'), ('/TIM1_CH1N', '/TIM1_CH3N'), ('/PHASE_A', '/PHASE_C')]
+01-20 13:31:53 root 337:updating GUI with: 66
+01-20 13:31:53 root 332:updating GUI message: 'Replicating text'
+01-20 13:31:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1136:Replicating text
+01-20 13:31:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['PhaseB']
+01-20 13:31:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['PhaseC']
+01-20 13:31:53 root 332:updating GUI message: 'Replicating drawings'
+01-20 13:31:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1187:Replicating drawings
+01-20 13:31:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['PhaseB']
+01-20 13:31:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['PhaseC']
+01-20 13:31:55 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete
