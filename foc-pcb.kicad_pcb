@@ -978,7 +978,7 @@
 
   (footprint "foc-pcb-library:SMD_PROG_PAD" locked (layer "F.Cu")
     (tstamp 3e7eddbf-71f3-4620-9de5-ff00ba126e0a)
-    (at 153.1 131.675)
+    (at 153.2961 131.7394)
     (property "Sheetfile" "STM32.kicad_sch")
     (property "Sheetname" "STM32")
     (property "exclude_from_bom" "")
